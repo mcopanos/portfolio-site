@@ -14,6 +14,10 @@
     margin: 10px ;
 }
 
+/* .card-3 {
+
+} */
+
 .btn {
     display: inline-block;
     padding: 10px 30px;
@@ -33,11 +37,23 @@
     transform: scale(0.98);
 }
 
+.text-center {
+    text-align: center;
+}
+
 .flex {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.flex-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid goldenrod;
 }
 
 .grid {
@@ -49,7 +65,13 @@
     height: 100%;
 }
 
-/* Margins */
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+    height: 50%;
+    gap: 50px;
+}
+
+/* Margin */
 .my-1 {
     margin: 1rem 0;
 }
@@ -59,7 +81,7 @@
 .my-3 {
     margin: 2rem 0;
 }
-.my-3 {
+.my-4 {
     margin: 3rem 0;
 }
 .my-5 {
@@ -84,33 +106,33 @@
 
 /* padding */
 .py-1 {
-    margin: 1rem 0;
+    padding: 1rem 0;
 }
 .py-2 {
-    margin: 1.5rem 0;
+    padding: 1.5rem 0;
 }
 .py-3 {
-    margin: 2rem 0;
+    padding: 2rem 0;
 }
 .py-3 {
-    margin: 3rem 0;
+    padding: 3rem 0;
 }
 .py-5 {
-    margin: 4rem 0;
+    padding: 4rem 0;
 }
 
 .p-1 {
-    margin: 1rem;
+    padding: 1rem;
 }
 .p-2 {
-    margin: 1.5rem;
+    padding: 1.5rem;
 }
 .p-3 {
-    margin: 2rem;
+    padding: 2rem;
 }
 .p-3 {
-    margin: 3rem;
+    padding: 3rem;
 }
 .p-5 {
-    margin: 4rem;
+    padding: 4rem;
 }
