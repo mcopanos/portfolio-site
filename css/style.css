@@ -43,7 +43,6 @@ img {
 /* Navigation */
 .navbar {
     background-color: var(--primary-color);
-    /* color: #C3CEDA; */
     color: var(--primary-text);
     height: 70px;
 }
