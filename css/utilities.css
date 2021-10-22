@@ -14,9 +14,30 @@
     margin: 10px ;
 }
 
-/* .card-3 {
+.card-3 {
+    height: 50%;
+}
 
-} */
+.card-wrap-outer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card-wrap-inner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    @media (min-width: 480px) { 
+        width: 50%;
+    }
+
+    @media (min-width: 1024px) { 
+            width: 33.33%;
+    }
+}
 
 .btn {
     display: inline-block;
@@ -51,9 +72,12 @@
 .flex-3 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    width: 100%;
     border: 1px solid goldenrod;
+}
+
+.flexible {
+    flex-grow: 1;
 }
 
 .grid {
