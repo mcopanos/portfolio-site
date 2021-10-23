@@ -133,6 +133,7 @@ img {
 /* About */
 .about {
     padding-top: 100px;
+    position: relative;
 }
 
 .about .grid h3 {
@@ -142,4 +143,10 @@ img {
 
 .grid-3 i {
     color: #071330;
+}
+
+/* Projects */
+
+.projects {
+    background-color: var(--primary-color);
 }

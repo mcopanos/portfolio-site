@@ -18,6 +18,10 @@
     height: 50%;
 }
 
+.card-4 {
+    /* width: 33%; */
+}
+
 .btn {
     display: inline-block;
     padding: 10px 30px;
@@ -54,8 +58,11 @@
     width: 100%;
 }
 
-.flexible {
-    flex-grow: 1;
+.flex-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 20px;
 }
 
 .grid {
