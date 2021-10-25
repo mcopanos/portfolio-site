@@ -94,7 +94,7 @@
 }
 
 .grid-4{
-    height: 100%;
+    height: auto;
     width: 100%;
     gap: 40px;
 }
