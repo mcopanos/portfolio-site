@@ -138,7 +138,6 @@ img {
 
 .about .grid h3 {
     font-size: 25px;
-
 }
 
 .grid-3 i {
@@ -149,6 +148,15 @@ img {
 
 .projects {
     background-color: var(--primary-color);
+    height: auto;
+    padding: 100px 0;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 552px;
+    height: 100%;
 }
 
 .image-wrapper img {
@@ -162,4 +170,5 @@ img {
     flex-direction: column;
     box-sizing: border-box;
     padding: 10px 20px;
+    margin-top: 20px;
 }
