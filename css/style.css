@@ -150,3 +150,16 @@ img {
 .projects {
     background-color: var(--primary-color);
 }
+
+.image-wrapper img {
+    width:100%;
+    object-fit: contain;
+    border-radius: 10px 10px 0 0;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
