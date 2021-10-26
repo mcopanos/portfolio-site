@@ -91,7 +91,8 @@ img {
 .showcase-form {
     position: relative;
     top: 60px;
-    height: 375px;
+    /* height: 375px; */
+    height: auto;
     width: 450px;
     padding: 40px;
     z-index: 100;
@@ -114,7 +115,8 @@ img {
     font-size: 16px;
 }
 
-.showcase-form textarea,input:focus {
+.showcase-form textarea,input:focus,
+.contact-form-wrapper textarea,input:focus {
     outline: none;
 }
 
@@ -184,8 +186,14 @@ img {
     position: relative;
 }
 
-.contact-form-wrapper {
-    
+.contact-form-wrapper h2{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.contact-form-wrapper input,
+.contact-form-wrapper textarea {
+    margin-top: 2em;
 }
 
 /* Footer */
