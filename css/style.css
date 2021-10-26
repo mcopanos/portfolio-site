@@ -103,7 +103,10 @@ img {
 
 .showcase-form input[type='text'],
 .showcase-form input[type='email'],
-.showcase-form textarea[type='text'] {
+.showcase-form textarea[type='text'],
+.contact-form-wrapper input[type='text'],
+.contact-form-wrapper input[type='email'],
+.contact-form-wrapper textarea[type='text'] {
     border: 0;
     border-bottom: 1px solid #C3CEDA;
     width: 100%;
@@ -187,8 +190,8 @@ img {
 
 /* Footer */
 .footer {
-    background-color: #071330;
-    color: #DEE2EC;
+    background-color: var(--primary-color);
+    color: var(--primary-text);
 }
 
 .footer-flex {
