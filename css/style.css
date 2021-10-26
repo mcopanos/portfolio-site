@@ -147,7 +147,8 @@ img {
 /* Projects */
 
 .projects {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background-color: #DEE2EC;
     height: auto;
     padding: 100px 0;
 }
@@ -172,3 +173,27 @@ img {
     padding: 10px 20px;
     margin-top: 20px;
 }
+
+/* Footer */
+.footer {
+    background-color: #071330;
+    color: #DEE2EC;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+.social i {
+    color: #DEE2EC;
+}
+
