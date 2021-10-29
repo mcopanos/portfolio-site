@@ -36,7 +36,11 @@
 
             <div id="showcaseForm" class="showcase-form card">
                 <h2>Contact Me!</h2>
-                <form action="">
+                <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                      </p>
                     <div class="form-control">
                         <input type="text" name="name" placeholder="name" required>
                     </div>
@@ -59,10 +63,10 @@
             <div class="grid grid-3 text-center">
                 <div class="flex-3 card card-3">
                     <i class="fas fa-code fa-3x"></i>
-                    <h3>HTML, CSS, & JS</h3>
+                    <h3>Code</h3>
                     <p class="text-secondary">As a frontend web devloper I stay up to date with todays 
-                        core base. I also enjoy working with frameworks like
-                        React. 
+                        technologies like HTML5, CSS3 and JavaScript. I also enjoy working with JS libraries like
+                        JQuery and React. 
                     </p>
                 </div>
                 <div class="flex-3 card card-3">
@@ -188,7 +192,8 @@
         <div class="container">
             <div class="contact-form-wrapper">
                 <h2>Get In Touch</h2>
-                <form action="">
+                <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
                     <div class="form-control">
                         <input type="text" name="name" placeholder="name" required>
                     </div>
@@ -198,7 +203,10 @@
                     <div class="form-control">
                         <textarea type="text" name="message" id="message" placeholder="message" required cols="10" rows="8"></textarea>
                     </div>
-                    <input type="submit" value="Send" class="btn btn-primary">
+                    <div data-netlify-recaptcha="true"></div>
+                    <div class="form-control">
+                        <input type="submit" value="Send" class="btn btn-primary">
+                    </div>
                 </form>
             </div>
         </div>

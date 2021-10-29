@@ -40,6 +40,11 @@ img {
     width: 100%;
 }
 
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
+
 /* Navigation */
 .navbar {
     background-color: var(--primary-color);
@@ -193,6 +198,7 @@ img {
 .contact-form-wrapper h2{
     font-size: 2.5rem;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .contact-form-wrapper input,
@@ -225,6 +231,9 @@ img {
 
 /* Tablets and under */
 @media(max-width: 768px) {
+    .container {
+        padding: 0 80px;
+    }
     .grid,
     .showcase .grid,
     .about .grid,
@@ -245,6 +254,8 @@ img {
 
     .showcase-text {
         text-align: center;
+        padding-top: 20px;
+        margin-top: 60px;
     }
     .showcase-form {
         justify-self: center;
