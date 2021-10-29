@@ -45,6 +45,9 @@ img {
     background-color: var(--primary-color);
     color: var(--primary-text);
     height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 .navbar ul{
@@ -90,12 +93,12 @@ img {
 
 .showcase-form {
     position: relative;
-    top: 60px;
+    top: 80px;
     /* height: 375px; */
     height: auto;
     width: 450px;
     padding: 40px;
-    z-index: 100;
+    z-index: 99;
 }
 
 .showcase-form .form-control {
