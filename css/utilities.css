@@ -3,6 +3,7 @@
     margin: 0 auto;
     overflow: auto;
     padding: 0 40px;
+    /* width: 100%; */
 }
 
 .card {
@@ -71,7 +72,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 325px;
+    min-height: 372px;
+    /* min-height: 325px; */
 }
 
 .flex-4 {

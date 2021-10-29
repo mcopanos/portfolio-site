@@ -75,6 +75,7 @@ img {
     background-color: var(--primary-color);
     color: var(--primary-text);
     position: relative;
+    /* width: 100%; */
 }
 
 .showcase h1 {
@@ -96,7 +97,7 @@ img {
     top: 80px;
     /* height: 375px; */
     height: auto;
-    width: 450px;
+    max-width: 450px;
     padding: 40px;
     z-index: 99;
 }
@@ -222,3 +223,54 @@ img {
     color: #DEE2EC;
 }
 
+/* Tablets and under */
+@media(max-width: 768px) {
+    .grid,
+    .showcase .grid,
+    .about .grid,
+    .projects .grid {
+        grid-template-columns: 1fr;
+        height: auto;
+        /* width: auto; */
+    }
+
+    .grid {
+        /* height: 50% */
+    }
+    .showcase {
+        height: auto;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .showcase-text {
+        text-align: center;
+    }
+    .showcase-form {
+        justify-self: center;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+
+/* Moblie */
+@media (max-width: 500px) {
+    .navbar {
+        height: 110px;
+        position: relative;
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .contact h2 {
+        font-size: 26px;
+    }
+}
