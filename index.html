@@ -194,6 +194,9 @@
                 <h2>Get In Touch</h2>
                 <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                     <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                      </p>
                     <div class="form-control">
                         <input type="text" name="name" placeholder="name" required>
                     </div>
@@ -203,7 +206,6 @@
                     <div class="form-control">
                         <textarea type="text" name="message" id="message" placeholder="message" required cols="10" rows="8"></textarea>
                     </div>
-                    <div class="recaptcha" data-netlify-recaptcha="true"><div class="box"></div></div>
                     <div class="form-control">
                         <input type="submit" value="Send" class="btn btn-primary">
                     </div>
